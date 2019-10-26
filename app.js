@@ -14,8 +14,6 @@
 // });
 
 
-var questionNum = 0;													// keep count of question, used for IF condition.
-var question = '<h1>what is your name?</h1>';				  // first question
 
 var output = document.getElementById('output');				// store id="output" in output variable
 output.innerHTML = question;													// ouput first question
@@ -26,6 +24,13 @@ function getInput() {
     return "LMAO"
 
 }
+
+var input = document.getElementById("input");
+input.addEventListener("keydown", function (e) {
+  if (e.keyCode === 13) {
+    alert("Working")
+  }
+});
 
 // function bot() { 
 //     var input = document.getElementById("input").value;
@@ -50,10 +55,19 @@ function getInput() {
 //     output.innerHTML = question;
 // }
 
-
-$(document).keyup(function(e) {
-  if($(".input").is(":focus") && event.key == "Enter"){
-    var x = getInput();
-    alert(x);
+//push enter key (using jquery), to run bot function.
+$(document).keypress(function(e) {
+  if (e.which == 13) {
+    alert("ENTER")
   }
 });
+
+
+
+
+// $(document).keyup(function(e) {
+//   if($(".input").is(":focus") && event.key == "Enter"){
+//     var x = getInput();
+//     alert(x);
+//   }
+// });
