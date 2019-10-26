@@ -10,7 +10,7 @@
 
   body {
     background: linear-gradient(to right, transparent, rgb(255, 224, 88)),
-    linear-gradient(to top, transparent, rgb(255, 224, 88)),
+    linear-gradient(to top, transparent, #008cf0),
     url("Background.jpg");
       background-repeat: no-repeat;
       display: flex;
@@ -18,14 +18,13 @@
       justify-content: center;
       height: 100%;
       margin: 1px;
-          padding: 1px;
+        padding: 1px;
       font-family: 'Roboto', sans-serif;
   }
 
-  /* h1 {
-    text-align: left;
-    color: white;
-  } */
+  .bear {
+      align-self: center;
+  }
   
   .oski {
     text-align: left;
@@ -36,9 +35,10 @@
   .bartext {
     float: right;
   }
-
+  
   .titlebar {
-    background-color: #008cf0;
+    /* background: linear-gradient(to right, transparent, #008cf0);
+    color: #008cf0; */
     border: none;
     top: 0;
     position: fixed;
@@ -48,11 +48,6 @@
     padding-right: 1%;
   }
 
-  .grad-overlay {
-    background: linear-gradient(to right, transparent, rgb(255, 217, 0)),
-    url("Background.jpg");
-  }
-
   hr { 
     border: none;
 }
@@ -60,29 +55,29 @@
 
 
 
-  
-  /* .wrapper {
-    background-color: lightpink;
+
+
+    #container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
     
-    max-width: 50%;
-    display: flex;
-    flex-direction: row;
-    height: 80%;
-  }
+    input {
+        background-color: #eee;
+        border: none;
+        font-family: sans-serif;
+        color: #000;
+        padding: 5% 1000%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+    }
+
+
+
+
+
   
-  .left, .right {
-    background-color: lightblue;
-    
-    margin: 5px;
-    max-width: 50%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .left {
-    align-items: center;
-    justify-content: center;
-  } */
   
