@@ -1,0 +1,88 @@
+/* html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 1px;
+
+    font-family: 'Roboto', sans-serif;
+  } */
+
+  body {
+    background: linear-gradient(to right, transparent, rgb(255, 224, 88)),
+    linear-gradient(to top, transparent, rgb(255, 224, 88)),
+    url("Background.jpg");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      margin: 1px;
+          padding: 1px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  /* h1 {
+    text-align: left;
+    color: white;
+  } */
+  
+  .oski {
+    text-align: left;
+    color: white;
+    font-size: 125%;
+  }
+
+  .bartext {
+    float: right;
+  }
+
+  .titlebar {
+    background-color: #008cf0;
+    border: none;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .grad-overlay {
+    background: linear-gradient(to right, transparent, rgb(255, 217, 0)),
+    url("Background.jpg");
+  }
+
+  hr { 
+    border: none;
+}
+
+
+
+
+  
+  /* .wrapper {
+    background-color: lightpink;
+    
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+  
+  .left, .right {
+    background-color: lightblue;
+    
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left {
+    align-items: center;
+    justify-content: center;
+  } */
+  
