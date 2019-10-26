@@ -1,5 +1,9 @@
-<html>
+<!DOCTYPE html>
+
+<html lang = "en-US">
     <head>
+     <meta charset = "UTF-8">
+     <title>OskiChat.html</title>
         <title>OskiChat</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
@@ -31,13 +35,15 @@
             </div>
     
     
+            <div id="output">
+                
+            </div>
     
             <div id="container">
-                    <input type="text" name="input" id="input" value="" onKeydown="getInput();">
-                </div>
-                <button onclick="getInput()">Enter</button>
+                    <input type="text" name="input" id="input" value="" >
+                    <button onclick="getInput()">Enter</button>
+            </div>
 
-            <div id="output"></div>
 
             <script src="app.js">
             </script>
