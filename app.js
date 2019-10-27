@@ -18,6 +18,7 @@
 var output = document.getElementById('output');				// store id="output" in output variable
 output.innerHTML = question;													// ouput first question
 
+<<<<<<< HEAD
 function getInput(e) {
     var input = document.getElementById("input").value;
     document.getElementById("input").value = "";
@@ -26,10 +27,29 @@ function getInput(e) {
     node.appendChild(textnode);     
     document.getElementById("chat").appendChild(node);
     // return input
+=======
+
+
+
+var spawn = require('child_process').spawn,
+py    = spawn('python', ['random_output.py']),
+data = [1,2,3,4,5,6,7,8,9],
+dataString = '';
+
+function respond(input) {
+
+}
+
+function getInput() {
+    var input = document.getElementById("input").value;
+    document.getElementById("input").value = "";
+    return input
+>>>>>>> fe2660e4dc9043e6b5e5862810dfd7ecb99ccfdc
 }
 
 
 
+<<<<<<< HEAD
 // var input = document.getElementById("input");
 // input.addEventListener("keypress", getInput);
 
@@ -72,3 +92,20 @@ function getInput(e) {
 //     alert(x);
 //   }
 // });
+=======
+
+//start.js
+var spawn = require('child_process').spawn,
+    py    = spawn('python', ['compute_input.py']),
+    data = [1,2,3,4,5,6,7,8,9],
+    dataString = '';
+
+py.stdout.on('data', function(data){
+  dataString += data.toString();
+});
+py.stdout.on('end', function(){
+  console.log('Sum of numbers=',dataString);
+});
+py.stdin.write(JSON.stringify(data));
+py.stdin.end();
+>>>>>>> fe2660e4dc9043e6b5e5862810dfd7ecb99ccfdc
