@@ -1,0 +1,109 @@
+/* html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 1px;
+
+    font-family: 'Roboto', sans-serif;
+  } */
+
+  body {
+    background: linear-gradient(to right, transparent, rgb(255, 224, 88)),
+    linear-gradient(to top, transparent, #008cf0),
+    url("Background.jpg");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      margin: 1px;
+        padding: 1px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  a {
+    color: rgb(0, 112, 216)
+  }
+
+  .bear {
+      align-self: center;
+  }
+  
+  .oski {
+    text-align: left;
+    color: white;
+    font-size: 125%;
+  }
+
+  .bartext {
+    float: right;
+  }
+  
+  .titlebar {
+    /* background: linear-gradient(to right, transparent, #008cf0);
+    color: #008cf0; */
+    border: none;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+
+  hr { 
+    border: none;
+}
+
+
+
+    #container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    input {
+        background-color: #eee;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        color: #000;
+        padding: 10px 500px;
+        text-align: center;
+        /* text-decoration: none; */
+        /* display: inline-block; */
+        font-size: 30px;
+        margin-right: 30px;
+    }
+
+button {
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color:#007dc1;
+  border-radius:3px;
+  border:1px solid #124d77;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Roboto', sans-serif;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+}
+.button:hover {
+  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color:#0061a7;
+}
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+        
+
+
+
+  
+  
