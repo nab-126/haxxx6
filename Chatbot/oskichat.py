@@ -102,7 +102,8 @@ def bag_of_words(s, words):
 
 def respond(inp):
 	found = 0
-	ans=""
+	ans = ""
+	inp = inp.upper()
 	for i in classabreviations:
 		x = inp.split()
 		if i in x:
@@ -114,7 +115,7 @@ def respond(inp):
 				ans += webscraper.findEndTime(clas) + "\n"
 				count += 1
 			if "INSTR" in x or "INSTRUCTOR" in x or "PROF" in x or "TEACHER" in x or "PROFESSOR" in x:
-				ans += "Class taught by " + webscraper.findInstructor(clas) + "\n"
+				ans += "Class is taught by " + webscraper.findInstructor(clas) + "\n"
 				count += 1
 			if "LOCATION" in x or "PLACE" in x or "BUILDING" in x or "WHERE" in x or "ROOM" in x:
 				ans += "Class is in " + webscraper.findLocation(clas) + "\n"
@@ -122,9 +123,9 @@ def respond(inp):
 			if count == 0:
 				ans += webscraper.findDays(clas) + ": "
 				ans += webscraper.findStartTime(clas) + "-"
-				ans += webscraper.findEndTime(clas) + "\n"
-				ans += "Class taught by " + webscraper.findInstructor(clas) + "\n"
-				ans += "Class is in " + webscraper.findLocation(clas) + "\n"
+				ans += webscraper.findEndTime(clas) + "\n\n"
+				ans += "Class is taught by " + webscraper.findInstructor(clas) + "\n\n"
+				ans += "Class is in " + webscraper.findLocation(clas) + "\n\n"
 			found = 1
 	if not found:
 		results = model.predict([bag_of_words(inp, words)])
@@ -145,9 +146,9 @@ def chat():
 		inp = input("You: ").upper()
 		if inp.lower() == "quit":
 			break
+		print(inp)
 		ans = respond(inp)
 		print(ans)
 
 
-def main():
-	return
+print(respond("math 53"))

@@ -17,23 +17,25 @@
 </head>
 <body>
 <div>
-    <div class="titlebar">
-        <p class="oski">
-            <strong>OskiChat!</strong>
-            <span class="bartext">
-                  <a href="https://calcentral.berkeley.edu">CalCentral</a>
-                  <span>   </span>
-                  <a href="https://classes.berkeley.edu/">Class List</a>
-          </span>
-        </p>
-    </div>
+    <div class="header">
+        <div class="titlebar">
+            <p class="oski">
+                <strong>OskiChat!</strong>
+                <span class="bartext">
+                      <a href="https://calcentral.berkeley.edu">CalCentral</a>
+                      <span>   </span>
+                      <a href="https://classes.berkeley.edu/">Class List</a>
+              </span>
+            </p>
+        </div>
 
-    <hr>
-    <img src="{{url_for('static', filename='Bear.png')}}" height="200px" width="200px" alt="" class="bear" />
-    <div class="left">
-        <p>
-            Ask me a question! I won't eat you, I'm not that hungry right now. I think.
-        </p>
+        <hr>
+        <img src="{{url_for('static', filename='Bear.png')}}" height="200px" width="200px" alt="" class="bear" />
+        <div class="left">
+            <p>
+                Ask me a question! I won't eat you, I'm not that hungry right now. I think.
+            </p>
+        </div>
     </div>
 
     <div id="output" >
