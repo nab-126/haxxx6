@@ -1,0 +1,193 @@
+{"intents": [
+  {"tag": "Billing and Payments 1",
+    "patterns": ["The link I used last year to get my 1098-T form no longer works. What do I do?"],
+    "responses": ["Students may access their 1098-T form online at http://www.tsc1098t.com. For more information on how to access your 1098-T form, please visit http://studentbilling.berkeley.edu/taxpayer.htm"],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 2",
+    "patterns": ["How do I access my 1098-T forms from prior years?"],
+    "responses": ["Student may access their 1098-T form from prior years online at http://www.tsc1098t.com"],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 3",
+    "patterns": ["When will my 1098-T form be available?"],
+    "responses": ["Your 1098-T form will be available online by January 31."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 4",
+    "patterns": ["How do I get a copy of my 1098-T form?"],
+    "responses": ["If you are a US resident for tax purposes and you have qualified charges and/or gift aid for the corresponding tax year, you may access your 1098-T form online as of January 31 at www.tsc1098t.com. You will need the following information to login: Site ID (11554), Username (SID), Password (initial password is last 4 numbers of your SSN). If you have any difficulty logging in to the TAB Services website, please contact TAB Services toll free directly at (888) 220-2540."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 5",
+    "patterns": ["How will I know when my 1098-T form is available?"],
+    "responses": ["UC Berkeley will send you an email to the email address listed in CalCentral by January 31. The email will come from billingnotices@berkeley.edu."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 6",
+    "patterns": ["Where can I learn more about the 1098-T form and how this affects me?"],
+    "responses": ["UC Berkeley will send you an email to the email address listed in CalCentral by January 31. The email will come from billingnotices@berkeley.edu."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 7",
+    "patterns": ["I’m withdrawing. How much will I still owe? When will I get my refund?"],
+    "responses": ["When you withdraw your registration, the fees assessed to your account are prorated according to the effective date of the withdrawal; it will depend on the effective date whether you would still owe any fees or if you would get any money back for that semester. All withdrawals done before the beginning of instruction are actually “cancellations,” and a student would not be liable for any fees to the University (less the Statement of Intention to Register fee, if paid).\n\nAfter instruction begins, it will depend on the withdrawal date how much you would owe the University and whether you would receive a refund of any fees paid. See the withdrawal/cancellation page on the Office of the Registrar’s website to determine the prorated fee amounts. NOTE: the health insurance fee, Class Pass fee, and the Document fee (new students only) are non-refundable and will remain charged at 100% for all withdrawals.\n\nPlease allow 4-5 weeks from the effective date of your withdrawal for us to determine if you are due a refund. Continue to monitor CalCentral for your final billing statement."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 8",
+    "patterns": ["What are my payment options?"],
+    "responses": ["How It Works:\n\nYour tuition and fees are billed through CalCentral.\nBilling statements are produced monthly online. For the most up-to-date information about your student account including new charges, adjustments, aid disbursements and payments, log in to CalCentral.\nYou may give delegate access to your parents/guardians if they need access to your bills. This can be done under \"Profile\" in CalCentral.\nWant to pay fees in installments? The Tuition & Fee Payment Plan allows for monthly installments. Sign up through CalCentral.\nFinancial aid recipients: If you expect your fees to be covered by financial aid and your financial aid file is complete, continue to monitor your award payment status and statement in CalCentral to make sure your payments have been made before classes start.\n\nPayment Options:\n\nVia CalCentral\n\ne-check (no fee)\nCredit card (2.75% fee)\nInternational funds transfer (foreign currency)\nBy Mail\n\nPaper check\n\nFor more information on payment options, visit the Student Billing website here."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 9",
+    "patterns": ["How do I pay my tuition with foreign funds?"],
+    "responses": ["Students paying by International Funds Transfer (foreign currency) should user our IFT option in CalCentral."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 10",
+    "patterns": ["How does my SHIP waiver affect my billing?"],
+    "responses": ["Why do I have a late fee applied to my billing statement?\nIf you submitted your original waiver application between July 16 and July 31, you will receive a late waiver fee on your billing statement. Please note, a UHS late fee on your Cal Central bill is different than a SHIP late waiver fee. Refer to CalCentral to view an itemized list of all your fees. If you have additional questions, please contact us. For SHIP waiver questions, please contact the SHIP Office at ship@berkeley.edu or 510-642-5700.\n \nWhat if I am still awaiting a decision regarding my SHIP waiver? I have paid the premium in order to clear my account, but if my waiver is subsequently approved, when can I expect a refund?\u200B\nIf your waiver is ultimately approved, you may expect a refund within 30 days. If you have signed up for direct deposit, also known as Electronic Funds Transfer (EFT), it will automatically post to your bank account. If you don’t have EFT, please sign up now to expedite the refund process. If you have not signed up for EFT, a paper check will be issued that can be picked up at Cal Student Central. Be sure to pick up your check within 10 days of it being issued or it will be sent to your local address. Please update your address in CalCentral so your check is mailed to the correct location.\n \nDoes my Financial Aid cover the cost of SHIP?\nAs part of the waiver decision making process, students should consider how maintaining and/or waiving out of SHIP can impact their financial aid offer. The information on this Financial Aid page will assist students and families in understanding how being granted a SHIP waiver and/or keeping the SHIP coverage may impact the financial aid budget and awards."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 11",
+    "patterns": ["I am being billed for health insurance but I have other coverage. How do I have this charge removed from my bill?"],
+    "responses": ["If you have comparable medical coverage, you may opt to waive out of the University's Student Health Insurance Program (SHIP).\n\nGet the SHIP waiver form and more details at https://uhs.berkeley.edu/insurance/waiving-ship"],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 12",
+    "patterns": ["I need to make a payment. Can I pay by credit or debit card?"],
+    "responses": ["Credit card payments are accepted. We have five options for sending payments electronically at https://studentcentral.berkeley.edu/node/86."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 13",
+    "patterns": ["How do I pay on the Tuition and Fee Payment Plan (FPP)?"],
+    "responses": ["To enroll in the Tuition and Fee Payment Plan (previously known as the Deferred Payment Plan), please follow these five steps:\n\nSelect the Plan\nReview the Installments\nComplete the Agreement\nReview and Save the Installment Schedule\nSubmit your first payment\nIMPORTANT:  Enrolling in the FPP allows for the fall and spring semester registration fees to be paid in five monthly installments. Registration fees for Summer Sessions, Fall Program for Freshmen, and certain self-supporting programs are not eligible for the FPP option.\n\nYou must enroll in the FPP each fall and spring semester. A non-refundable participation fee of $60 will be assessed each semester you enroll. Please do not pay the participation fee until it is billed to your CalCentral account.\n\nSemester\tDeadline to Enroll in the Tuition and Fee Payment Plan (note: exact deadlines will be listed in CalCentral)\nFall\tMid-September\nSpring\tMid-February"],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 14",
+    "patterns": ["Is there a late fee if my payment isn't received?"],
+    "responses": ["If you do not make payment according to the due dates outlined, you may incur late fees and have a hold placed on your CalCentral account."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 15",
+    "patterns": ["How do I view my bills and payments online (for students)?"],
+    "responses": ["Go to CalCentral: calcentral.berkeley.edu and click on the “My Finances” tab."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 16",
+    "patterns": ["Can I pay for my rent at the Student Affairs Cashier’s Office?"],
+    "responses": ["No, please make a payment via CalCentral. Or you may drop off a check at Billing and Payment Services, 140 University Hall."],
+    "context_set": ""
+  },
+  {"tag": "Billing and Payments 17",
+    "patterns": ["Can I make a payment to a specific charge on CalCentral if I have multiple outstanding balances?"],
+    "responses": ["No, payments will be applied to the oldest outstanding balance."],
+    "context_set": ""
+  },
+  {"tag": "major",
+    "patterns": ["How will I know when my 1098-T form is available?"],
+    "responses": ["UC Berkeley will send you an email to the email address listed in CalCentral by January 31. The email will come from billingnotices@berkeley.edu."],
+    "context_set": ""
+  },
+  {"tag": "regist",
+    "patterns": ["What are the criteria for being an officially registered student?"],
+    "responses": ["There are 3 criteria to be officially registered: 1) You must be enrolled in at least 1 course. 2) Your registration fees must be paid either in full, or if on the Tuition and Fee Payment Plan, at least the first installment. 3) You must have no holds against your registration. Note that you must be officially reigstered to use campus services (e.g., the library, RSF, etc.)"],
+    "context_set": ""
+  },
+  {"tag": "name",
+    "patterns": ["How do I establish a preferred name?"],
+    "responses": ["At Cal, we recognize that some students identify with names alternate from their legal name. As long as such a preferred name is not used for misrepresentation, students may designate, change, or remove a preferred name on Calcentral. Additional details can be found here: https://registrar.berkeley.edu/academic-records/your-name-records-rosters"],
+    "context_set": ""
+  },
+  {"tag": "enrollment",
+    "patterns": ["How do I get verification of my enrollment or registration?"],
+    "responses": ["Request veritication of your enrollment online via Calcentral."],
+    "context_set": ""
+  },
+  {"tag": "conditions of admission",
+    "patterns": ["What should I do if I have not or will not meet my Conditions of Admission?"],
+    "responses": ["Each admitted student will see their own Conditions of Admission explaining exactly what official documents Berkeley requires on CalCentral. If you have not or will not meet your Conditions of Admission, then you must immediately contact your assigned admissions officer. Your admissions officer contact information can be found on MAP@Berkeley"],
+    "context_set": ""
+  },
+  {"tag": "space enroll",
+    "patterns": ["There is space in a class, but CalCentral won't let me enroll?"],
+    "responses": ["Enrollment restrictions in most classes are set up by the department under the direction of the professor. You can look up these restrictions on CalCentral to see whether you qualify and if there is still space available for you; you should get on the waiting list if there’s no longer any room."],
+    "context_set": ""
+  },
+  {"tag": "international documentation",
+    "patterns": ["What documentation do I need to submit if I am an international student?"],
+    "responses": ["As an international student, you will need to submit the Non-Immigrant Information Form (NIF) and send appropriate documentation required and requested by the Berkeley International Office."],
+    "context_set": ""
+  },
+  {"tag": "add class",
+    "patterns": ["How do I add a class?"],
+    "responses": ["Try Calcentral at www.calcentral.berkeley.edu"],
+    "context_set": ""
+  },
+  {"tag": "withdraw",
+    "patterns": ["What do I do if I plan to withdraw from UC Berkeley?"],
+    "responses": ["Occasionally students decide to discontinue their studies at Berkeley for a period of time (e.g. for a particular semester after that semester has begun). This is called a withdrawal. Students withdraw for many reasons: to work, travel, recover from an illness, attend to personal business, or find their true academic direction. Because a withdrawal affects your student status, as well as various student services, here is what you need to know to ensure that you are following official withdrawal procedures and gathering information about your eventual return to campus via readmission: http://studentcentral.berkeley.edu/withdraw"],
+    "context_set": ""
+  },
+  {"tag": "remove hold",
+    "patterns": ["How do I get a hold removed to register for classes?"],
+    "responses": ["You must meet with your major adviser or, if undeclared, your intended major department, college or school to have the hold removed before you register for classes."],
+    "context_set": ""
+  },
+  {"tag": "transcript cost",
+    "patterns": ["How much do transcripts cost?"],
+    "responses": ["The University does not charge for transcripts. However, there is a special processing fee of $10 (plus shipping) if you want them sent express or need us to enclose a form with your transcripts. If you request transcripts online via TranscriptsPlus, our partner vendor charges a $1.75 processing fee for each transcript."],
+    "context_set": ""
+  },
+  {"tag": "transcript pick up",
+    "patterns": ["Can someone else pick up my transcript for me?"],
+    "responses": ["Yes, you will have to call Cal Student Central so we can ensure that the person that is requesting the transcript is you. Also, you will have to write a letter of authorization with the name of the person who will be picking up the official transcript with a photocopy of your ID on the authorization letter. We will be asking for a photo ID from the person picking up the transcript."],
+    "context_set": ""
+  },
+  {"tag": "send transcript",
+    "patterns": ["Can my transcript be sent by email or electronically?"],
+    "responses": ["Transcripts cannot be sent via email. Berkeley does not currently participate in electronic transcript exchange."],
+    "context_set": ""
+  },
+  {"tag": "order transcripts",
+    "patterns": ["I recently ordered my transcripts online. How can I check the status to see if they have been mailed?"],
+    "responses": ["Once the transcript department receives your request and authorization letter, it will take 3-5 days for the transcript to be mailed out. Express mail and special processing will go out the next business day. Please allow time for the transcript department to process the online request."],
+    "context_set": ""
+  },
+  {"tag": "proof grad",
+    "patterns": ["How do I get proof of my graduation?"],
+    "responses": ["Complete a Request for Verification of Attendance and Degrees and mail it to us at:\nCal Student Central\nUniversity of California\n120 Sproul Hall\nBerkeley, CA 94720\n\nThere is no fee for this service. You may also obtain proof of graduation at Cal Student Central in 120 Sproul Hall.."],
+    "context_set": ""
+  },
+  {"tag": "enrollment verification",
+    "patterns": ["Where can I get a transcript or enrollment verification?"],
+    "responses": ["You have several options\n1) Current students can order a transcript online or request enrollment verification through CalCentral.\n2) Visit 120 Sproul Hall to pick up official transcripts (but don't forget a photo ID!). This is limited to 9 copies a day.\n3) Mail-in transcript requests take 3-5 business days to be mailed.\n4) Alumni, former students, and summer-only students can order official transcripts via Credentials, Inc."],
+    "context_set": ""
+  },
+  {"tag": "drop",
+    "patterns": ["Will I be dropped from my classes if I'm not registered?"],
+    "responses": ["No. However, if you are not registered by the first day of classes, you will not be able to pick up your Class Pass sticker, check out books from the library, go to the Recreational Sports Facility (RSF), or access other services only available to registered students. We encourage you to become officially registered as soon as possible."],
+    "context_set": ""
+  },
+  {"tag": "residency",
+    "patterns": ["Where can I find information about residency?"],
+    "responses": ["On or.berkeley.edu/myresidency, you can submit documents, check status, view letters, and customize content. You could also email orres@berkeley.edu or visit us during drop-in hours at Cal Student Central in 120 Sproul Hall."],
+    "context_set": ""
+  },
+  {"tag": "transfer credits",
+    "patterns": ["How can I find out if my credits will transfer?"],
+    "responses": ["View ASSIST.org to obtain information about transfer credits. Check the admissions website for a walk-in appointment. Note that your transfer courses cannot be evaluated until you are admitted and your transcripts are processed."],
+    "context_set": ""
+  },
+  {"tag": "statement of legal residence (SLR)",
+    "patterns": ["How do I access the online Statement of Legal Residence (SLR)?"],
+    "responses": ["Log into CalCentral."],
+    "context_set": ""
+  },
+  {"tag": "residency",
+    "patterns": ["How do I find the status of my residency?"],
+    "responses": ["Visit or.berkeley.edu/myresidency. To upload documents: choose 'My Documents'. To find official correspondence  from the Residence Affairs Unit: go to 'My Letters'."],
+    "context_set": ""
+  }
+]
+}
