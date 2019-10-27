@@ -1,7 +1,4 @@
 
-
-
-
 function getInput() {
     var input = document.getElementById("input").value;
     if (input == "") {
@@ -14,10 +11,8 @@ function getInput() {
     node.appendChild(textnode);     
     document.getElementById("chat").appendChild(node);
     reply("You are a lol");
-    var myElement = document.getElementById("container");
-    var topPos = myElement.offsetTop;
-    document.getElementById("container").scrollTop = topPos;
-}
+    scrollBy(0, 250)
+  }
 
 function reply(msg) {
   var node = document.createElement("LI");

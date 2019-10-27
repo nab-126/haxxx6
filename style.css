@@ -8,29 +8,14 @@
     font-family: 'Roboto', sans-serif;
   } */
 
-  html {
-    background: linear-gradient(to right, transparent, rgb(255, 224, 88)),
-    linear-gradient(to top, transparent, #008cf0),
-    url("Background.jpg");
-      background-repeat: no-repeat;
-  }
 
-  .parallax {
-    /* The image used */
-    background-image: url("Background.jpg");
-  
-    /* Set a specific height */
-    min-height: 1080px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
 
   body {
+    background: linear-gradient(to right, transparent, rgb(255, 224, 88)),
+    linear-gradient(to top, transparent, #008cf0),
+    url("Background.jpg");
+    background-repeat: no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -170,9 +155,4 @@ button {
   top:1px;
 }
 
-        
-
-
-
-  
-  
+ 
