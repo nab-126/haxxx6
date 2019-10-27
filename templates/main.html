@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-US" dir="ltr">
  <head>
    <meta charset="utf-8">
    <title>oskichat</title>
@@ -27,16 +27,22 @@
         </p>
     </div>
 
-    <div id="output">
-        
+    <div id="output" > 
+            <ul id="chat"> </ul>
     </div>
-
-    <div id="container">
-            <input type="text" name="input" id="input" value="" >
-            <button onclick="getInput()">Enter</button>
+    <div class="bar">
+      <div id="container">
+          <input type="text" name="input" id="input" value="">
+      </div>
+      <button onclick="getInput()">Enter</button>
     </div>
 
     <script type=text/javascript src="{{url_for('static', filename='app.js') }}"></script>
+
+    <noscript>
+        <h1> PLEASE ENABLE JAVASCRIPT </h1>
+    </noscript>
+
     </div>    
     
  </body>
