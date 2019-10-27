@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>oskichat</title>
+    <link rel="stylesheet" type='text/css' href="{{ url_for('static',    filename='style.css') }}"  href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto">
+
+ </head>
+ <body>
+    <div>
+    <div class="titlebar">
+        <p class="oski">
+          <strong>OskiChat!</strong> 
+          <span class="bartext">
+                  <a href="https://calcentral.berkeley.edu">CalCentral</a>
+                  <span>   </span>                            
+                  <a href="https://classes.berkeley.edu/">Class List</a>
+          </span>
+        </p>
+    </div>
+
+    <hr>
+        <img src="{{url_for('static', filename='Bear.png')}}" height="200px" width="200px" alt="" class="bear" />
+    <div class="left">
+        <p>
+            Ask me a question! I won't eat you, I'm not that hungry right now. I think.
+        </p>
+    </div>
+
+    <div id="output">
+        
+    </div>
+
+    <div id="container">
+            <input type="text" name="input" id="input" value="" >
+            <button onclick="getInput()">Enter</button>
+    </div>
+
+    <script type=text/javascript src="{{url_for('static', filename='app.js') }}"></script>
+    </div>    
+    
+ </body>
+</html>
