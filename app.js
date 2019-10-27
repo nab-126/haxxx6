@@ -15,13 +15,14 @@
 
 
 
-var output = document.getElementById('output');				// store id="output" in output variable
-output.innerHTML = question;													// ouput first question
+
 
 function getInput() {
     var input = document.getElementById("input").value;
     document.getElementById("input").value = "";
+    
     var node = document.createElement("LI");
+    node.className = "in"
     var textnode = document.createTextNode(input);
     node.appendChild(textnode);     
     document.getElementById("chat").appendChild(node);
@@ -29,9 +30,14 @@ function getInput() {
 }
 
 function reply(msg) {
-  var node = document.createElement("LI");
-  var textnode = document.createTextNode(msg);
-  node.appendChild(textnode);     
-  document.getElementById("chat").appendChild(node);
+  var border = document.createElement("DIV");
+  border.className = "borderRight";
+  var textBubble = document.createElement("DIV");
+  textBubble.className = "in";
+  var textNode = document.createTextNode(msg);
+  textNode.className = "inTxt"
+  textBubble.appendChild(textNode);
+  border.appendChild(textBubble);        
+  document.getElementById("chat").appendChild(border);
 }
 

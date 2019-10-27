@@ -37,9 +37,7 @@
     font-size: 125%;
   }
 
-  .chatbox {
-    list-style: none;
-  }
+
 
   .oski {
     float: left;
@@ -70,8 +68,66 @@
   }
   
 
+  .borderRight {
+    background: linear-gradient(to right, transparent, lightyellow);
+    display: flex;
+    border-radius: 25px;
+    max-width: 75%;
+    position: relative;
+    left: 78%;
+  }
+  .in{
+    background: linear-gradient(to right, transparent, lightblue);
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+  }
+  .Txt {
+    float: right;
+    width: 50%;
+    font-size: 200%;
+    margin: 25px;
+  }
+
+
+  .borderLeft {
+    background: linear-gradient(to left, transparent, lightyellow);
+    
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    border-radius: 25px;
+    max-width: 50%;
+  }
+  
+
+    
+  .out{
+    background: linear-gradient(to right, transparent, #008cf0);
+    margin: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+
+  }
+
+  .leftTxt {
+    font-size: 500;
+    margin: 25px;
+  }
+
+
   hr { 
     border: none;
+}
+
+.chatbox {
+  list-style: none;
 }
 
 /* .bar {
