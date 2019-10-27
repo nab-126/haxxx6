@@ -18,19 +18,20 @@
 var output = document.getElementById('output');				// store id="output" in output variable
 output.innerHTML = question;													// ouput first question
 
-function getInput() {
+function getInput(e) {
     var input = document.getElementById("input").value;
     document.getElementById("input").value = "";
-    return "LMAO"
-
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode(input);
+    node.appendChild(textnode);     
+    document.getElementById("chat").appendChild(node);
+    // return input
 }
 
-var input = document.getElementById("input");
-input.addEventListener("keydown", function (e) {
-  if (e.keyCode === 13) {
-    alert("Working")
-  }
-});
+
+
+// var input = document.getElementById("input");
+// input.addEventListener("keypress", getInput);
 
 // function bot() { 
 //     var input = document.getElementById("input").value;
@@ -56,11 +57,11 @@ input.addEventListener("keydown", function (e) {
 // }
 
 //push enter key (using jquery), to run bot function.
-$(document).keypress(function(e) {
-  if (e.which == 13) {
-    alert("ENTER")
-  }
-});
+// $(document).keypress(function(e) {
+//   if (e.which == 13) {
+//     alert("ENTER")
+//   }
+// });
 
 
 
